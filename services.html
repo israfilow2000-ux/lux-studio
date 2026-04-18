@@ -1,0 +1,108 @@
+<head>
+<style>
+body{
+    margin:0;
+    font-family: Arial;
+    background:#070707;
+    color:white;
+}
+
+a{
+    color:gold;
+    text-decoration:none;
+}
+
+h1{
+    color:gold;
+    text-align:center;
+    margin-top:60px;
+    font-size:40px;
+}
+
+p{
+    text-align:center;
+    color:#ccc;
+}
+
+/* BACK BUTTON */
+.back{
+    display:block;
+    text-align:center;
+    margin-top:20px;
+}
+
+/* SERVICES CARDS */
+.container{
+    display:flex;
+    justify-content:center;
+    flex-wrap:wrap;
+    gap:20px;
+    margin-top:50px;
+    padding:20px;
+}
+
+.card{
+    background:#111;
+    border:1px solid rgba(255,215,0,0.2);
+    padding:30px;
+    width:250px;
+    text-align:center;
+    transition:0.3s;
+    cursor:pointer;
+}
+
+.card:hover{
+    transform:translateY(-10px);
+    border-color:gold;
+    box-shadow:0 0 20px rgba(255,215,0,0.2);
+}
+
+.card h2{
+    color:gold;
+}
+
+.card p{
+    font-size:14px;
+    color:#bbb;
+}
+
+button{
+    background:gold;
+    border:none;
+    padding:10px 20px;
+    cursor:pointer;
+    margin-top:10px;
+}
+</style>
+</head>
+
+<body>
+
+<h1>Xidmətlər</h1>
+<p>Biz sizin biznesi rəqəmsal dünyada daha güclü edirik</p>
+
+<div class="container">
+
+    <div class="card">
+        <h2>Business Website</h2>
+        <p>Peşəkar biznes saytları ilə şirkətinizi online gücləndirin.</p>
+        <button>Sifariş et</button>
+    </div>
+
+    <div class="card">
+        <h2>UI/UX Design</h2>
+        <p>İstifadəçi dostu və modern interfeys dizaynları.</p>
+        <button>Sifariş et</button>
+    </div>
+
+    <div class="card">
+        <h2>Landing Pages</h2>
+        <p>Satış artıran və konversiya yönlü səhifələr.</p>
+        <button>Sifariş et</button>
+    </div>
+
+</div>
+
+<a class="back" href="index.html">← Geri</a>
+
+</body>
